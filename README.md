@@ -1,7 +1,7 @@
 # KYSegmentView
 ![展示图](https://github.com/kangyiii/KYSegmentView/blob/master/%E5%B1%95%E7%A4%BAGif.gif)
 
-#使用说明
+### 使用说明
 
 ```
 - (void)viewWillAppear:(BOOL)animated{
