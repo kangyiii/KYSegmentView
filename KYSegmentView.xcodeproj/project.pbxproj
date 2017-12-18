@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0DEC491FE36DC100476125 /* KYBaseSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0DEC431FE36DC100476125 /* KYBaseSegmentView.m */; };
+		AC0DEC4A1FE36DC100476125 /* KYSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0DEC451FE36DC100476125 /* KYSegmentView.m */; };
+		AC0DEC4B1FE36DC100476125 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0DEC481FE36DC100476125 /* UIView+ViewController.m */; };
+		AC0DEC521FE3A6F900476125 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0DEC511FE3A6F900476125 /* TestViewController.m */; };
 		AC70404B1FE27EB2004A9B24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70404A1FE27EB2004A9B24 /* main.m */; };
 		AC70404E1FE27EB2004A9B24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70404D1FE27EB2004A9B24 /* AppDelegate.m */; };
 		AC7040511FE27EB2004A9B24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7040501FE27EB2004A9B24 /* ViewController.m */; };
@@ -16,6 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0DEC421FE36DC100476125 /* KYBaseSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYBaseSegmentView.h; sourceTree = "<group>"; };
+		AC0DEC431FE36DC100476125 /* KYBaseSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYBaseSegmentView.m; sourceTree = "<group>"; };
+		AC0DEC441FE36DC100476125 /* KYSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSegmentView.h; sourceTree = "<group>"; };
+		AC0DEC451FE36DC100476125 /* KYSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSegmentView.m; sourceTree = "<group>"; };
+		AC0DEC471FE36DC100476125 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		AC0DEC481FE36DC100476125 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		AC0DEC501FE3A6F900476125 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AC0DEC511FE3A6F900476125 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		AC7040461FE27EB2004A9B24 /* KYSegmentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYSegmentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC70404A1FE27EB2004A9B24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC70404C1FE27EB2004A9B24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0DEC3E1FE355FF00476125 /* KYSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DEC441FE36DC100476125 /* KYSegmentView.h */,
+				AC0DEC451FE36DC100476125 /* KYSegmentView.m */,
+				AC0DEC421FE36DC100476125 /* KYBaseSegmentView.h */,
+				AC0DEC431FE36DC100476125 /* KYBaseSegmentView.m */,
+				AC0DEC471FE36DC100476125 /* UIView+ViewController.h */,
+				AC0DEC481FE36DC100476125 /* UIView+ViewController.m */,
+			);
+			path = KYSegmentView;
+			sourceTree = "<group>";
+		};
 		AC70403D1FE27EB2004A9B24 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +87,9 @@
 				AC70404D1FE27EB2004A9B24 /* AppDelegate.m */,
 				AC70404F1FE27EB2004A9B24 /* ViewController.h */,
 				AC7040501FE27EB2004A9B24 /* ViewController.m */,
+				AC0DEC501FE3A6F900476125 /* TestViewController.h */,
+				AC0DEC511FE3A6F900476125 /* TestViewController.m */,
+				AC0DEC3E1FE355FF00476125 /* KYSegmentView */,
 				AC7040521FE27EB2004A9B24 /* Main.storyboard */,
 				AC7040551FE27EB2004A9B24 /* Assets.xcassets */,
 				AC7040571FE27EB2004A9B24 /* LaunchScreen.storyboard */,
@@ -151,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0DEC4A1FE36DC100476125 /* KYSegmentView.m in Sources */,
+				AC0DEC4B1FE36DC100476125 /* UIView+ViewController.m in Sources */,
+				AC0DEC521FE3A6F900476125 /* TestViewController.m in Sources */,
 				AC7040511FE27EB2004A9B24 /* ViewController.m in Sources */,
 				AC70404E1FE27EB2004A9B24 /* AppDelegate.m in Sources */,
+				AC0DEC491FE36DC100476125 /* KYBaseSegmentView.m in Sources */,
 				AC70404B1FE27EB2004A9B24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +342,7 @@
 				AC70405F1FE27EB2004A9B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
